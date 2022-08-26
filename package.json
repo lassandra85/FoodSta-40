@@ -2,12 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://lassandra85.github.io/
-FoodSta-40",
+  "homepage": "https://lassandra85.github.io/FoodSta-40",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /
-FoodSta-40/"
+    "build": "parcel build src/*.html --public-url /FoodSta-40/"
   },
   "repository": {
     "type": "git",
