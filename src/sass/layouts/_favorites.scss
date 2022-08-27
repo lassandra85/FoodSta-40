@@ -1,0 +1,44 @@
+.favorites {
+    
+    &__list {
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+}
+
+.item-hidden {
+
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
+    
+}
+
+.favorites__item {
+
+
+    width: 280px;
+    border: 11px solid #FFE550;
+    border-radius: 140px;
+    padding: 20px;
+
+@media screen and (mim-width: 768px) {
+    width: 336px;
+    border: 14px solid #FFE550;
+    border-radius: 168px;
+    padding: 20px;
+}
+@media screen and (min-width: 1280px) {
+    width: 394px;
+    border: 16px solid #FFE550;
+    border-radius: 198px;
+    padding: 20px;
+}
+
+
+}
+
+
+
