@@ -1,9 +1,17 @@
-@import './common';
-@import './header';
-@import './hero';
-@import './offerings';
-@import './favorites';
-@import './customers_say';
-@import './subscribe';
-@import './footer';
+@import "./utils/vars";
+
+@import "./base/common";
+@import "./base/reset";
+@import "./base/card-set";
+
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/offerings";
+@import "./layouts/favorites";
+@import "./layouts/customers_say";
+@import "./layouts/subscribe";
+@import "./layouts/footer";
+
+
 
