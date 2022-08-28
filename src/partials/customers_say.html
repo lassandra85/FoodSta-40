@@ -21,14 +21,14 @@
             <picture>
               <source
                 srcset="
-                  src/images/customers_say/customer1@1x.png 1x,
-                  src/images/customers_say/customer1@2x.png 2x
+                  ./images/customers_say/customer1@1x.png 1x,
+                  ./images/customers_say/customer1@2x.png 2x
                 "
               />
 
               <img
                 class="customer-image"
-                src="../images/customers_say/customer1@1x.png"
+                src="./images/customers_say/customer1@1x.png"
                 alt="Customer"
               />
             </picture>
@@ -39,7 +39,41 @@
           </div>
         </div>
       </li>
-      <li class="customers__list-item"></li>
+      <li class="customers__list-item">
+        <div class="customers__list-icon">
+          <svg class="">
+            <use href="#"></use>
+          </svg>
+        </div>
+        <p class="customers__list-text">
+          “The ease with which I can just go in and order what i want was
+          amazing, It has been a very pleasant experience ordering from this
+          app”
+        </p>
+
+        <div class="customers__list-card">
+          <div class="customers__list-photo">
+            <picture>
+              <source
+                srcset="
+                  ./images/customers_say/customer2@1x.png 1x,
+                  ./images/customers_say/customer2@2x.png 2x
+                "
+              />
+
+              <img
+                class="customer-image"
+                src="./images/customers_say/customer2@1x.png"
+                alt="Customer"
+              />
+            </picture>
+          </div>
+          <div class="customers__list-content">
+            <h3 class="customers__card-title">Sumith Shah</h3>
+            <p class="customers__card-text">Some Dude</p>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
 </section>
