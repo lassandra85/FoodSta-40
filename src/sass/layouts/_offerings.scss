@@ -1,0 +1,263 @@
+.section-offerings{
+    padding-top: 410px;
+    padding-bottom: 60px;
+
+    background-repeat: no-repeat;
+    background-image:
+        url(../images/offerings/apple-mobile@1x.png),
+        url(../images/offerings/ellipse-mobile@1x.png),
+        url(../images/offerings/border-mobile@1x.png),
+        url(../images/offerings/rectangle-mobile@1x.png);
+        
+    background-position: bottom 753.45px left 62.25px, bottom 712.22px left 32.22px, bottom 700px left 20px, center;
+    background-size: 201.6px, 255.56px, 280px, cover;
+        
+    @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image:
+        url(../images/offerings/apple-mobile@2x.png),
+        url(../images/offerings/ellipse-mobile@2x.png),
+        url(../images/offerings/border-mobile@2x.png),
+        url(../images/offerings/rectangle-mobile@2x.png);
+    }
+
+    @media screen and (min-width: 768px) {
+        padding-top: 604px;
+        padding-bottom: 100px;
+
+        background-image: 
+        url(../images/offerings/apple-tablet@1x.png),
+        url(../images/offerings/apple2-tablet@1x.png),
+        url(../images/offerings/apple3-tablet@1x.png),
+        url(../images/offerings/ellipse-tablet@1x.png),
+        url(../images/offerings/border-tablet@1x.png),
+        url(../images/offerings/rectangle-tablet@1x.png);
+
+        background-position: bottom 664.16px left 85.87px, bottom 663px left 418px, bottom 664px left 628px, bottom 611.58px left 47.58px, bottom 596px left 32px, center;
+        background-size: 257.04px, 166px, 108px, 325.84px, 357px, cover;
+    
+    @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+            background-image:
+            url(../images/offerings/apple-tablet@2x.png),
+            url(../images/offerings/apple2-tablet@2x.png),
+            url(../images/offerings/apple3-tablet@2x.png),
+            url(../images/offerings/ellipse-tablet@2x.png),
+            url(../images/offerings/border-tablet@2x.png),
+            url(../images/offerings/rectangle-tablet@2x.png);
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        padding-top: 260px;
+        padding-bottom: 131px;
+
+        background-image:
+        url(../images/offerings/apple-desktop@1x.png),
+        url(../images/offerings/ellipse-desktop@1x.png),
+        url(../images/offerings/border-desktop@1x.png),
+        url(../images/offerings/rectangle-desktop@1x.png);
+
+        background-position: bottom 177px left 100px, bottom 99px left 40px, bottom 75px left 16px, center;
+        background-size: 396px, 502px, 550px, cover;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+        background-image: 
+        url(../images/offerings/apple-desktop@2x.png),
+        url(../images/offerings/ellipse-desktop@2x.png),
+        url(../images/offerings/border-desktop@2x.png),
+        url(../images/offerings/rectangle-desktop@2x.png);
+    }
+
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 1.17;
+
+        text-align: left;
+        color: var(--main-cl);
+
+        margin-bottom: 28px;
+        width: 280px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 42px;
+        
+        margin-bottom: 20px;
+        width: 526px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        line-height: 1.17;
+        margin-top: 0;
+    }
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+
+        text-align: left;
+        color: var(--main-cl);
+
+        margin: 0 0 28px;
+        width: 272px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+        line-height: 1.19;
+
+        margin-bottom: 40px;
+        width: 500px;
+    }
+    @media screen and (min-width: 768px) {   
+        line-height: 1.15;
+    }
+    }
+
+&__descr{
+        width: 252px;
+    @media screen and (min-width: 768px) {
+        font-size: 14px;
+        line-height: 1.14;
+        margin-bottom: 0;
+        }
+    @media screen and (min-width: 1280px) {
+        width: 253px;
+        font-size: 14px;
+        line-height: 1.5;
+        }
+    }
+
+    &__subtitle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+
+        margin-top: 8px;
+        margin-bottom: 16px;
+
+        text-align: left;
+        color: var(--main-cl);
+
+    @media screen and (min-width: 1280px) {
+        font-size: 17.0033px;
+        line-height: 1.17;
+    }
+    }
+
+    &__list {
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 116px;
+        margin-bottom: 40px;
+    }
+    @media screen and (min-width: 1280px) {
+        gap: 67px;  
+        margin-bottom: 32px;
+    }
+    }
+
+    &__item {
+        margin-bottom: 28px;
+        width: 252px;
+
+        &::before {
+            display: inline-block;
+            content: "";
+            width: 48px;
+            height: 48px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: var(--white);
+            border-radius: 50%;
+        }
+    @media screen and (min-width: 768px) {
+        margin-bottom: 0;
+        }
+    }
+
+    &__rocket-launch::before {
+        background-image: url(../images/offerings/rocket_launch.svg);
+    }
+
+    &__touch-app::before {
+        background-image: url(../images/offerings/touch_app.svg);
+    }
+
+    &__button-order {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+
+        color: #000;
+
+        align-items: center;
+        text-align: center;
+        background-color: var(--white);
+        border-radius: 30px;
+        cursor: pointer;
+        padding: 10px 31px;
+        border: 2px solid var(--border-btn);
+
+        &:hover, 
+        &:focus{
+        border: 2px solid var(--border-btn-hov);
+        }
+
+    }
+
+    &__button-read {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13.6667px;
+        line-height: 1.5;
+        color: #000;
+        cursor: pointer;
+        align-items: center;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+
+        margin-left: 20.5px;
+        padding: 7px 0;
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        &::after {
+                content: "";
+                width: 13.67px;
+                height: 13.67px;
+                margin-left: 3.42px;
+
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: transparent;
+                background-size: contain;
+            }
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
+    }
+
+    &__button-read::after {
+            background-image: url(../images/offerings/chevron_down.svg);
+        }
+
+&__container{
+    
+    @media screen and (min-width: 1280px) {
+        margin-left: 640px;
+        margin-right: 35px;
+    }
+}
+}
+
