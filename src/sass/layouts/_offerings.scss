@@ -23,6 +23,8 @@
     @media screen and (min-width: 768px) {
         padding-top: 604px;
         padding-bottom: 100px;
+        z-index: 2;
+        margin: -108px 0 0 0;
 
         background-image: 
         url(../images/offerings/apple-tablet@1x.png),
@@ -48,7 +50,8 @@
 
     @media screen and (min-width: 1280px) {
         padding-top: 260px;
-        padding-bottom: 131px;
+        z-index: 2;
+        margin: -161px 0 0 0;
 
         background-image:
         url(../images/offerings/apple-desktop@1x.png),
@@ -86,7 +89,6 @@
 
     text-align: left;
     margin-bottom: 28px;
-    width: 280px;
 
     @media screen and (min-width: 768px) {
         font-size: 42px;
@@ -109,7 +111,6 @@
 
     text-align: left;
     margin: 0 0 28px;
-    width: 272px;
 
     @media screen and (min-width: 768px) {
         font-size: 16px;
