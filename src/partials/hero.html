@@ -17,9 +17,18 @@
                     <button type="button" class="hero-select--btn">
                         <div class="swiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img  src="./images/hero/dish-first@1xdesktop.jpg" alt="dish"></div>
+                                <div class="swiper-slide">
+                                    <img srcset="
+                                    ./images/hero/dish-first@1xtablet.jpg. 292w,
+                                    ./images/hero/dish-first@1xdesktop.jpg 528w,
+                                    ./images/hero/dish-first@2xtablet.jpg 584w,
+                                    ./images/hero/dish-first@2xdesktop.jpg 1168w"
+                                                                                        
+                                        sizes="(min-width:1280px) 528px, (min-width:768px) 292px, 100vw "
+                                           
+                                    src="./images/hero/dish-first@1xdesktop.jpg" alt="dish"></div>
                                 <div class="swiper-slide"><img  src="./images/hero/dish-second@1xdesktop.jpg" alt="dish"></div>
-                                <div class="swiper-slide"><img  src="./images/hero/dish-first@1xdesktop.jpg" alt="dish"></div>
+                                <div class="swiper-slide"><img  src="./images/hero/dish-third@1xdesktop.jpg" alt="dish"></div>
                             </div>
                         </div>
                     </button>
