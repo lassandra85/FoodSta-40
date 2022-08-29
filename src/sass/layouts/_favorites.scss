@@ -1,10 +1,10 @@
 .favorites {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   @media screen and (min-width: 768px) {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
 
@@ -28,12 +28,12 @@
   @media screen and (max-width: 767px) {
     flex-direction: column;
     flex-wrap: nowrap;
+    gap: 20px;
   }
 }
 
 .favorites__text {
   margin-bottom: 60px;
-
   font-style: normal;
   font-weight: 400;
   text-align: center;
@@ -69,22 +69,26 @@
 }
 
 .favorites__link {
-  display: block;
-  height: 100%;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
   border: 11px solid var(--yellow-main);
   border-radius: 140px;
-  padding: 20px;
+  padding: 17px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   @media screen and (min-width: 768px) {
     border: 14px solid var(--yellow-main);
     border-radius: 168px;
+    padding: 20px;
+    height: 336px;
   }
 
   @media screen and (min-width: 1280px) {
     border: 16px solid var(--yellow-main);
     border-radius: 198px;
+    height: 394px;
   }
 
   &:hover,
