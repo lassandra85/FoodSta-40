@@ -1,8 +1,15 @@
 .customers-container {
     background-image: url(../images/customers_say/background_320.png);
     background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+@media screen and (min-width: 480px) {
+    .customers-container {
+    background-image: url(../images/customers_say/background_480.png);
+}
 }
 
 .customers__list-item {
@@ -16,9 +23,7 @@
     
 }
 
-// .customers__list-item:first-child {
-//     margin-bottom: 24px;
-// }
+
 
 .customers__title {
     margin-bottom: 20px;
@@ -48,7 +53,7 @@
     font-weight: 500;
         font-size: 14px;
         line-height: 1.5;
-        /* identical to box height, or 21px */
+        
 }
 
 .customers__card-text {
