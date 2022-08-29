@@ -89,7 +89,7 @@
 
   &:hover,
   &:focus {
-    border-color: #bbf330;
+    border-color: var(--btn-gr);
     outline: transparent;
   }
 }
