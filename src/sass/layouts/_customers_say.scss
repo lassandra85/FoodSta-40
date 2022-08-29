@@ -1,0 +1,68 @@
+.customers-container {
+    background-image: url(../images/customers_say/background_320.png);
+    background-repeat: no-repeat;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.customers__list-item {
+    background-color: var(--white);
+    border-radius: 0px 30px 30px 30px;
+    padding: 8px 8px;
+    
+     &:first-child {
+            margin-bottom: 24px;
+        }
+    
+}
+
+// .customers__list-item:first-child {
+//     margin-bottom: 24px;
+// }
+
+.customers__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+        font-size: 28px;
+        line-height: 1.18;
+}.customers__text {
+    margin-bottom: var(--indent);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.14;
+}
+
+.customers__list-icon {
+    margin-bottom: 28px;
+}
+
+.customers__list-text {
+    margin-bottom: 40px;
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: -0.02em;
+}
+
+.customers__card-title {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+        /* identical to box height, or 21px */
+}
+
+.customers__card-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+}
+
+.customers__list-card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.customers__list-content {
+    padding: 0 15px;
+}
