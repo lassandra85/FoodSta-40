@@ -106,6 +106,7 @@
         color: var(--main-cl);
         font-size: 14px;
         cursor: pointer;
+        transition: background-color var(--trans-fast);
     }
 
     &__btn:hover, &__btn:focus {
@@ -126,6 +127,7 @@
 
     &__link {
         color: var(--main-cl);
+        transition: color var(--trans-fast);
         
     }
 
