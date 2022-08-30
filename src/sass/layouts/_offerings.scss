@@ -54,14 +54,14 @@
         justify-content: space-between;
     }
 }
-.section-offerings__container {
+.container__info {
 
     @media screen and (min-width: 1280px) {
         margin-right: 35px;
     }
 }
 
-.section-offerings__img-apple {
+.container__apples {
 
     @media screen and (min-width: 768px) {
         display: flex;
@@ -87,7 +87,7 @@
 
 }
 
-.section-offerings__img {
+.section-offerings__img-list {
 
     @media screen and (min-width: 768px) {
         display: flex;
@@ -95,6 +95,7 @@
         align-items: baseline;
         flex-wrap: wrap;
         gap: 44px;
+        margin-top: 45px;
     }
 
     @media screen and (max-width: 767px), (min-width: 1280px) {
