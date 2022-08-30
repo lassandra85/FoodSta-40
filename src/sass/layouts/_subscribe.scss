@@ -95,6 +95,7 @@
   font-size: 12px;
   line-height: 1.5;
   color: #505050;
+  transition: var(--trans-fast);
 
   &:hover,
   &:focus {
@@ -137,6 +138,7 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 1.54;
+  transition: var(--trans-fast);
   
   &:hover,
   &:focus {
