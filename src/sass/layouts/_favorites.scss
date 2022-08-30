@@ -50,6 +50,12 @@
   }
 }
 
+.favorites__text-mover {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
 .favorites__item {
   width: 280px;
 
