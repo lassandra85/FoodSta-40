@@ -88,7 +88,6 @@
 }
 
 .section-offerings__img {
-    display: none;
 
     @media screen and (min-width: 768px) {
         display: flex;
@@ -98,7 +97,7 @@
         gap: 44px;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (max-width: 767px), (min-width: 1280px) {
         display: none;
     }
 
@@ -238,6 +237,8 @@
     cursor: pointer;
     padding: 10px 31px;
     border: 2px solid var(--border-btn);
+
+    transition: border var(--trans-fast);
 
     &:hover,
     &:focus {
