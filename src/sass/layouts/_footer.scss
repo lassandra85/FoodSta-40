@@ -105,6 +105,7 @@
 
     &__link {
         color: var(--main-cl);
+        transition: color var(--trans-fast);
     }
 
     &__link:active, &__link:hover, &__link:focus {
@@ -181,6 +182,7 @@
         border-radius: 30px;
         margin-left: auto;
         cursor: pointer;
+        transition: background-color var(--trans-fast);
 
         @media (min-width: 768px) {
             margin-left: 0;
