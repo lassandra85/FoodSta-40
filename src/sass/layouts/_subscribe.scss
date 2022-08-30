@@ -3,8 +3,7 @@
 }
 
 .subscribe-container {
-  // margin-top: 60px;
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 100px;
@@ -24,6 +23,12 @@
     margin-top: -73px;
     margin-bottom: 20px;
   }
+
+  @media screen and (min-width: 1280px) {
+
+    
+  }
+  
 }
 
 .subscribe-image {
@@ -34,6 +39,8 @@
   @media screen and (min-width: 768px) {
     margin-left: auto;
   }
+
+   
 }
 
 .subscribe__title {
@@ -69,6 +76,8 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 24px;
   }
+
+    
 }
 
 .subscribe-form {
@@ -151,7 +160,4 @@
   }
 }
 
-// .mail-form__submit-btn:hover,
-// .mail-form__submit-btn:focus {
-// background: var(--btn-gr-hov);
-// }
+
