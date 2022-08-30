@@ -43,13 +43,18 @@
 
     <div class="subscribe-form">
       <form class="mail-form" name="subscribe-form">
-        <input
-          name="email"
-          type="email"
-          class="mail-form-input"
-          placeholder="Enter your email"
-          required
-        />
+        <label class="form-label">
+          <input
+            name="email"
+            type="email"
+            class="mail-form-input"
+            placeholder="Enter your email"
+            required
+          />
+          <span class="label-text"
+            >Not a valid email address (example@email.com)</span
+          >
+        </label>
       </form>
       <button type="submit" class="mail-form__submit-btn">Subscribe</button>
     </div>
