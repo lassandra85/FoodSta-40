@@ -87,6 +87,7 @@
     background-color: #BBF330;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
     transition-duration: 300ms;
     &:hover,&:focus,&:active{
         background-color: #B5FF00;
@@ -105,6 +106,7 @@
     overflow: hidden;
     background:#FEFEFE;
     border: 14px solid #FFE550;
+    cursor: pointer;
     transition-duration: 500ms;
     &:hover,&:focus,&:active{
     border-color: #BBF330;
@@ -124,6 +126,7 @@
     background: #FEFEFE;
     border-style: none;
     border-width: 0;
+    cursor: pointer;
     position: absolute;
     top: 50%;
     left: -7px;
@@ -153,6 +156,7 @@
     background: #FEFEFE;
     border-style: none;
     border-width: 0;
+    cursor:pointer;
     position: absolute;
     top: 50%;
     right: -7px;
