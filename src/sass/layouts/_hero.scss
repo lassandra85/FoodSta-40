@@ -20,6 +20,9 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    @media(min-width:1280px){
+        align-items: start;
+    }
    
 
 }
@@ -58,6 +61,7 @@
         line-height: 1.2;
         margin-top: 159px;
         margin-bottom: 28px;
+        position: static;
     }   
 
 }
@@ -78,6 +82,7 @@
     }
     @media(min-width:1280px){
         width:502px;
+        padding-top:0;
     }
 
 }
