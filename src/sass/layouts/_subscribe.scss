@@ -147,7 +147,23 @@
 .mail-form-input:not(:placeholder-shown):required:invalid {
   border-color: #FF705D;
 
+}
 
+
+.mail-form-input:not(:placeholder-shown):invalid ~ .error-message {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.error-message {
+  display: none;
+
+  &__text {
+    font-size: 10px;
+    color: #FF705D;
+  }
 }
 
 
