@@ -33,8 +33,6 @@
 .hero__article{
    min-width: 280px;
    max-width: 480px;
-   margin-left: auto;
-   margin-right: auto;
     @media(min-width:768px){
         margin-left: 0;
     }
@@ -42,6 +40,7 @@
         max-width: 502px;}
 }
 .hero__title{
+    width: 280px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -54,7 +53,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 532px;
+        width: 537px;
         font-size: 42px;
         margin-right:190px ;
         margin-bottom: 44px;
@@ -62,6 +61,7 @@
     }
     @media(min-width:1280px){
         display: block;
+        width: 502px;
         font-size: 48px;
         line-height: 1.2;
         margin-top: 159px;
