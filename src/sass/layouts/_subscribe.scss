@@ -5,13 +5,10 @@
 
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .subscribe-container {
   margin-bottom: 60px;
-  
-  
 
   @media screen and (min-width: 768px) {
     margin-bottom: 100px;
@@ -21,7 +18,6 @@
     display: inline-flex;
     flex-direction: row-reverse;
     margin-bottom: 64px;
-    
   }
 }
 
@@ -43,7 +39,6 @@
     min-width: 608px;
     margin-top: -63px;
   }
-
 }
 
 .subscribe-image {
@@ -54,8 +49,6 @@
   @media screen and (min-width: 768px) {
     margin-left: auto;
   }
-
-
 }
 
 .subscribe__title {
@@ -91,8 +84,6 @@
   @media screen and (min-width: 768px) {
     margin-bottom: 24px;
   }
-
-
 }
 
 .subscribe-form {
@@ -103,9 +94,9 @@
   }
 }
 
-.mail-form {
-  display: flex;
-}
+// .mail-form {
+//   // display: flex;
+// }
 
 .mail-form-input {
   width: 100%;
@@ -120,7 +111,6 @@
   line-height: 1.5;
   color: #505050;
 
-
   &:hover,
   &:focus {
     outline: 0;
@@ -133,28 +123,27 @@
   }
 
   @media screen and (min-width: 1280px) {
-
     margin-right: var(--indent);
   }
 }
-
-
 
 .mail-form-input:not(:placeholder-shown):required:valid {
   border-color: var(--border-btn);
 }
 
 .mail-form-input:not(:placeholder-shown):required:invalid {
-  border-color: #FF705D;
-
+  border-color: #ff705d;
 }
-
 
 .mail-form-input:not(:placeholder-shown):invalid ~ .error-message {
   display: flex;
   align-items: center;
   gap: 4px;
   margin-top: 4px;
+
+  @media screen and (max-width: 767px) {
+    margin-top: -15px;
+  }
 }
 
 .error-message {
@@ -162,10 +151,9 @@
 
   &__text {
     font-size: 10px;
-    color: #FF705D;
+    color: #ff705d;
   }
 }
-
 
 .mail-form__submit-btn {
   width: 103px;
