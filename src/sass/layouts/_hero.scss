@@ -1,5 +1,8 @@
 .hero{
     padding-top:60px;
+    @media(min-width:1280px){
+        padding-top: 14px;
+    }
 }
 .hero__select{
     display: none;
