@@ -45,12 +45,22 @@
       <div class="subscribe-form">
         <form class="mail-form" name="subscribe-form">
           <input
-            name="email"
+            name="user-email"
             type="email"
             class="mail-form-input"
             placeholder="Enter your email"
             required
           />
+          <div class="error-message">
+            <svg class="error-message__icon" width="12" height="12">
+              <use
+                href="./images/customers_say/customers-sprite.svg#icon-error"
+              ></use>
+            </svg>
+            <p class="error-message__text">
+              Not a valid email address (example@email.com)
+            </p>
+          </div>
         </form>
         <button type="submit" class="mail-form__submit-btn">Subscribe</button>
       </div>
