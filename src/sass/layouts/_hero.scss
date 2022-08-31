@@ -1,9 +1,11 @@
 .hero{
     padding-top:60px;
     padding-bottom:50px;
+    @media(min-width:768px){
+        padding-bottom:0;
+    }
     @media(min-width:1280px){
         padding-top: 14px;
-        padding-bottom:0;
     }
 }
 .hero__select{
