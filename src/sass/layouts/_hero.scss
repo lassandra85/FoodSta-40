@@ -1,7 +1,7 @@
 .hero{
-    padding: 16px 0;
-    @media(min-width:768px){
-        padding:32px 0;
+    padding-top:60px;
+    @media(min-width:1280px){
+        padding-top: 14px;
     }
 }
 .hero__select{
@@ -37,7 +37,7 @@
     font-size: 28px;
     line-height: 1.17;
     color: #2C2C2C;
-    margin-bottom: 28px;
+    
     @media (min-width:768px) {
         position: absolute;
         top: 0;
@@ -70,7 +70,7 @@
         width: 336px;
         font-size: 16px;
         margin-bottom: 40px;
-        padding-top: 100px;
+        padding-top: 70px;
     }
     @media(min-width:1280px){
         width:502px;
