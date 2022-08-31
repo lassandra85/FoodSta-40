@@ -25,7 +25,7 @@
 .favorites__list {
   align-items: center;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.9px) {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 20px;
@@ -69,7 +69,7 @@
 }
 
 .item-hidden {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 767.9px) {
     display: none;
   }
 }
